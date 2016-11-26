@@ -14,8 +14,9 @@ $ git clone git@github.com:PaulHughes01/docker-development-environments.git
 # For the image you want to build, go into the directory and build from the Dockerfile
 $ cd docker-development-environments/(image-to-build)
 $ docker build -t dde-image-name .
+
 # See that the image was added locally
-$ docker images # See that the image has been added locally
+$ docker images
 ```
 
 See below for specific instructions regarding the individual Dockerfiles.
